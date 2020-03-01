@@ -55,14 +55,14 @@ font-size:50px
 
 /* Maps section */
 
-@media (min-width: 1013px) {
+@media (min-width: 1201px) {
  .row-maps{
     padding-left:250px
 
 }
 }
 
-@media screen and (max-width: 1012px) {
+@media screen and (max-width: 1200px) {
     .row-maps{
     padding-left:0px
 
