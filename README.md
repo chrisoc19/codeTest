@@ -20,5 +20,5 @@ I made this website as a way to showcase my abilities with HTML and CSS.
 
 ## Deployment
 
-The site is deployed on GitHub pages.
+The site is deployed on GitHub pages, which can be found here [O'Connors law](https://chrisoc19.github.io/codeTest/)
 
