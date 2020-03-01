@@ -43,27 +43,26 @@ font-size:50px
 
 
 /* About section */
+.img-thumbnail{
+    border: none;
+}
+
 @media screen and (max-width: 1200px) {
   div.container-team {
     font-size: 20px;
   }
 }
 
-#footer{
-    color: white;
-    background-color: black;
-    position: relative;
-    height: 100px;
-    margin-top: -100px; 
-    clear: both;
-}
 
+
+
+/* Maps section */
 .row-maps{
     padding-left:150px
 
 }
 
-/* Maps section */
+
 
 @media (min-width: 1201px) {
  .row-maps{
@@ -91,4 +90,19 @@ font-size:50px
         width: 100% !important;
         height: 100% !important;
     }
+}
+
+
+
+/* Footer */
+#footer{
+    padding-top: 50px;
+    position: relative;
+    height: 100px;
+    margin-top: -100px; 
+    clear: both;
+}
+
+.icons{
+    padding-bottom: 20px;
 }
