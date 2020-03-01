@@ -18,17 +18,17 @@
     <div id="main">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">O'Connors</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Features</a>
+      <a class="nav-item nav-link" href="#about">About us</a>
+      <a class="nav-item nav-link" href="#team">The Team</a>
       <a class="nav-item nav-link" href="#contact">Contact</a>
+      <a class="nav-item nav-link " href="#review">Reviews<span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="#maps">Location</a>
-      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
     </div>
   </div>
 </nav>
@@ -43,12 +43,13 @@
 
 <!-- End Jumbotron -->
 
-<div class="container">
+<!-- About -->
+<div class="container" id="about">
 <h1 class="text-center">About Us</h1>
 <hr>
 <div class="row text-center">
     <div class="col">
-   <h1 class="display-4">Our lawyers have broad experience across the range of legal issues that companies can expect to confront on the Swedish market. The firm’s core practice focuses on Swedish law</h1>
+   <h1 >Our lawyers have broad experience across the range of legal issues that companies can expect to confront on the Swedish market. The firm’s core practice focuses on Swedish law</h1>
     <hr>
     </div>
   
@@ -74,25 +75,12 @@
 
 
 
-<style>
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 601px) {
-  div.example {
-    font-size: 80px;
-  }
-}
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 1200px) {
-  div.container-team {
-    font-size: 20px;
-  }
-}
-</style>
+<!-- End About  -->
 
 
 <!-- Meet the team-->
- <div class="container container-team" >
+ <div class="container container-team" id="team">
  <h1 class="text-center">Meet the team</h1>
  <hr>
   <div class="row">
@@ -145,7 +133,7 @@
       <hr>
           <div class="row">
               <!-- Section Titile -->
-              <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+              <div class="col-md-12 " data-wow-delay=".2s">
                   <h1 class="section-title">Love to Hear From You</h1>
               </div>
           </div>
@@ -203,7 +191,7 @@
       </div>
     </section>
 
-<div class="container ">
+<div class="container " id="review">
 <!-- Section: Testimonials v.1 -->
 <section class="text-center my-5 p-1">
 
@@ -295,6 +283,7 @@
     <div class="container" id="maps">
     <div class="row">
     <div class="col"><h1 class="text-center">How to find us </h1>
+    <hr>
       <p class="text-center">We are in the heart of Stockholm just a 15 minute walk from the central station</p>
     </div>
     </div>
